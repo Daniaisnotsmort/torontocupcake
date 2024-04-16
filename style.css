@@ -1,0 +1,178 @@
+body {
+
+    background-color: #E9E5DC;
+    margin: 0;
+
+}
+
+header {
+
+    padding: 10px 20px;
+    margin-bottom: 20px;
+}
+
+.navbar {
+    display: flex;
+
+    align-items: center;
+}
+
+.logo {
+    margin-right: 700px;
+}
+
+.logo img {
+    height: 70px;
+    width: auto;
+
+}
+
+.navbar a {
+    color: rgb(37, 26, 26);
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.navbar a:hover {
+    color: #be8161;
+
+}
+
+.hero {
+    display: flex;
+}
+
+.main-cupcake img {
+    margin-top: -60px;
+}
+
+.hero-text {
+    margin-left: 20px;
+
+}
+
+.hero-text h1 {
+    font-family: "linotype-didot", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 84px;
+}
+
+
+.cupcake2 img {
+    margin-left: -102.5px;
+    margin-top: -80px;
+    width: 185vh;
+}
+
+.subhero-text {
+    float: right;
+
+}
+
+.subhero-text h1 {
+    position: absolute;
+    margin-left: -58vh;
+    padding-right: 10px;
+    font-family: "linotype-didot", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 60px;
+
+}
+
+.subhero-text p {
+
+    padding-right: 60px;
+    position: absolute;
+    margin-left: -58vh;
+    margin-top: 20vh;
+    font-size: 24px;
+    color: #E9E5DC;
+
+}
+
+.button {
+    display: inline-block;
+    background-color: #824F34;
+    color: #E9E5DC;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 50vh;
+}
+
+.button:hover {
+    background-color: #E9E5DC;
+    ;
+    color: #824F34;
+}
+
+.button:active {
+    background-color: #824F34;
+}
+
+
+
+footer {
+    background-color: #CC9E7C;
+    color: #824F34;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    height: 80px;
+}
+
+
+
+.footer-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav a {
+    color: #824F34;
+    text-decoration: none;
+
+}
+
+.footer-nav a:hover {
+    text-decoration: underline;
+}
+
+.contact-info p {
+    margin: 0 0 10px;
+}
+
+.social-icons a {
+    color: #824F34;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.social-icons a:last-child {
+    margin-right: 0;
+}
